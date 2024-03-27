@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/gheis/Desktop/Personal_projects/cmake-3.29.0-tutorial-source/Step1/build",
-  "command": "C:/msys64/ucrt64/bin/g++.exe   -g -o CMakeFiles/tutorial.dir/tutorial.cxx.obj -c C:/Users/gheis/Desktop/Personal_projects/cmake-3.29.0-tutorial-source/Step1/tutorial.cxx",
-  "file": "C:/Users/gheis/Desktop/Personal_projects/cmake-3.29.0-tutorial-source/Step1/tutorial.cxx",
-  "output": "CMakeFiles/tutorial.dir/tutorial.cxx.obj"
-}
-]
