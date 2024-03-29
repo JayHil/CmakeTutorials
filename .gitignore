@@ -35,4 +35,4 @@
 *.vscode
 
 #Directories
-**/build
+**/[Bb]uild
