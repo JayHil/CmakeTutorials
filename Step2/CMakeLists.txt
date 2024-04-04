@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # TODO 2: Use add_subdirectory() to add MathFunctions to this project
-add_subdirectory(MathFunctions)
+add_subdirectory("${PROJECT_SOURCE_DIR}/MathFunctions")
 
 # add the executable
 add_executable(Tutorial tutorial.cxx)
@@ -28,4 +28,5 @@ target_include_directories(Tutorial PUBLIC "${PROJECT_SOURCE_DIR}" "${PROJECT_SO
 # so that we will find TutorialConfig.h
 target_include_directories(Tutorial PUBLIC
                            "${PROJECT_BINARY_DIR}"
+                           "${PROJECT_SOURCE_DIR}/MathFunctions"
                            )
